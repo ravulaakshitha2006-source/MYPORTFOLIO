@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ravula Akshitha – B.Tech CSE (AI & ML) student passionate about machine learning, deep learning, and building impactful software. View my projects, internships, and skills." />
+  <meta name="keywords" content="Ravula Akshitha, AI ML Engineer, Portfolio, Machine Learning, Deep Learning, Python, SR University" />
+  <meta name="author" content="Ravula Akshitha" />
+  <meta property="og:title" content="Ravula Akshitha | AI & ML Engineer Portfolio" />
+  <meta property="og:description" content="B.Tech CSE student specializing in AI & ML. Explore projects, internships, and certifications." />
+  <meta property="og:type" content="website" />
+  <title>Ravula Akshitha | AI & ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== CURSOR GLOW ========== -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ========== PARTICLE CANVAS ========== -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" id="navLogo">
+        <span class="logo-bracket">&lt;</span>RA<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#internships" class="nav-link" data-section="internships">Experience</a></li>
+        <li><a href="#certifications" class="nav-link" data-section="certifications">Certs</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <a href="mailto:ravulaakshitha2006@gmail.com" class="nav-cta" id="navCta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Opportunities
+      </div>
+      <h1 class="hero-name">
+        <span class="name-line" id="heroName1">Ravula</span>
+        <span class="name-line accent" id="heroName2">Akshitha</span>
+      </h1>
+      <div class="hero-title">
+        <span class="title-prefix">I build</span>
+        <span class="typed-wrapper">
+          <span class="typed-text" id="typedText"></span>
+          <span class="typed-cursor">|</span>
+        </span>
+      </div>
+      <p class="hero-subtitle">
+        B.Tech CSE (AI &amp; ML) @ SR University · CGPA 8.6 · Crafting intelligent systems
+        that turn raw data into real-world impact.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" id="heroViewWork">
+          <span>View My Work</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="mailto:ravulaakshitha2006@gmail.com" class="btn btn-secondary" id="heroContact">
+          Get In Touch
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-target="8.6">0</span>
+          <span class="stat-label">CGPA</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="3">0</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="2">0</span>
+          <span class="stat-label">Internships</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="4">0</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-cue" id="scrollCue">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Who I Am</p>
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm <strong>Ravula Akshitha</strong>, a Computer Science (AI &amp; ML) undergraduate at
+            <strong>SR University</strong>, maintaining a CGPA of <strong>8.6/10</strong>. I'm passionate
+            about building intelligent systems – from predictive models and deep learning pipelines to
+            full-stack management applications.
+          </p>
+          <p>
+            My hands-on experience through <strong>Google AI-ML</strong> and <strong>Mist AI</strong>
+            virtual internships has given me a strong foundation in real-world machine learning workflows.
+            I love transforming complex problems into elegant, data-driven solutions.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Python</span>
+            <span class="tag">Data Science</span>
+            <span class="tag">AI Automation</span>
+            <span class="tag">Neural Networks</span>
+          </div>
+          <div class="about-contact-row">
+            <a href="mailto:ravulaakshitha2006@gmail.com" class="contact-chip" id="aboutEmail">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              ravulaakshitha2006@gmail.com
+            </a>
+            <a href="tel:+918309419340" class="contact-chip" id="aboutPhone">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12 19.79 19.79 0 0 1 1.08 3.4 2 2 0 0 1 3.05 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.28 16z"/></svg>
+              +91 8309419340
+            </a>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <div class="edu-card glass-card">
+            <div class="edu-icon">🎓</div>
+            <div class="edu-info">
+              <h3>SR University</h3>
+              <p class="edu-degree">B.Tech – CSE (AI &amp; ML)</p>
+              <p class="edu-period">2023 – 2027 · India</p>
+              <div class="cgpa-bar">
+                <div class="cgpa-label">
+                  <span>CGPA</span>
+                  <span class="cgpa-val">8.6 / 10</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" data-width="86"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info-pills">
+            <div class="pill">
+              <span class="pill-icon">📍</span>
+              <span>India</span>
+            </div>
+            <div class="pill">
+              <span class="pill-icon">🗓️</span>
+              <span>Class of 2027</span>
+            </div>
+            <div class="pill">
+              <span class="pill-icon">🌐</span>
+              <span>Open to Remote</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What I Know</p>
+        <h2 class="section-title">Technical <span class="accent">Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal glass-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">💻</div>
+            <h3>Programming</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info"><span>Python</span><span class="skill-pct">90%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>C++</span><span class="skill-pct">75%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-width="75"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal glass-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🌐</div>
+            <h3>Web Technologies</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info"><span>HTML5</span><span class="skill-pct">85%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>CSS3</span><span class="skill-pct">80%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal glass-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🤖</div>
+            <h3>AI / ML</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info"><span>Machine Learning</span><span class="skill-pct">85%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Deep Learning</span><span class="skill-pct">80%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Data Structures</span><span class="skill-pct">80%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal glass-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🔧</div>
+            <h3>Tools &amp; Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Scikit-Learn</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Jupyter</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What I've Built</p>
+        <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal glass-card" id="projectMarket">
+          <div class="project-header">
+            <div class="project-num">01</div>
+            <div class="project-links">
+              <span class="project-badge">ML Model</span>
+            </div>
+          </div>
+          <h3 class="project-title">Market Price Prediction &amp; Sales Optimization</h3>
+          <p class="project-desc">
+            Built a predictive model to forecast market prices using historical data analysis and regression
+            techniques. The model empowers business stakeholders to make data-driven decisions that
+            maximize profitability.
+          </p>
+          <ul class="project-bullets">
+            <li>Engineered features from raw market data for improved model accuracy</li>
+            <li>Deployed optimized predictions to guide pricing and inventory decisions</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span>
+            <span>Scikit-Learn</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal glass-card featured" id="projectDigit">
+          <div class="project-header">
+            <div class="project-num">02</div>
+            <div class="project-links">
+              <span class="project-badge featured-badge">Deep Learning</span>
+            </div>
+          </div>
+          <div class="featured-label">⭐ Featured</div>
+          <h3 class="project-title">Handwritten Digit Classification</h3>
+          <p class="project-desc">
+            Implemented a convolutional neural network on the MNIST dataset, achieving high-accuracy
+            digit classification. Explored various neural network architectures and activation functions
+            to push classification performance.
+          </p>
+          <ul class="project-bullets">
+            <li>Designed and trained a CNN achieving &gt;99% test accuracy on MNIST</li>
+            <li>Compared MLP vs. CNN architectures and analyzed confusion matrices</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>Keras</span>
+            <span>NumPy</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal glass-card" id="projectPharmacy">
+          <div class="project-header">
+            <div class="project-num">03</div>
+            <div class="project-links">
+              <span class="project-badge">Full Stack</span>
+            </div>
+          </div>
+          <h3 class="project-title">Pharmacy Management System</h3>
+          <p class="project-desc">
+            Developed a comprehensive full-stack pharmacy management application with complete
+            inventory control, order management, and user authentication. Focused on reliability,
+            performance, and clean UX.
+          </p>
+          <ul class="project-bullets">
+            <li>Built medicine search, real-time stock tracking, and automated billing</li>
+            <li>Integrated robust database for customer and medicine record management</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span>
+            <span>HTML/CSS</span>
+            <span>SQL</span>
+            <span>Git</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== INTERNSHIPS ========== -->
+  <section class="section section--alt" id="internships">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Where I've Worked</p>
+        <h2 class="section-title">Work <span class="accent">Experience</span></h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal" id="internGoogle">
+          <div class="timeline-dot">
+            <div class="dot-inner"></div>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div class="timeline-org">
+                <div class="org-logo google">G</div>
+                <div>
+                  <h3 class="timeline-role">AI-ML Virtual Intern</h3>
+                  <p class="timeline-company">Google AI-ML · AICTE – EduSkills</p>
+                </div>
+              </div>
+              <div class="timeline-period">
+                <span class="period-badge">Jul 2024 – Sep 2024</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Developed and evaluated machine learning models using Python, TensorFlow, and Scikit-Learn</li>
+              <li>Mastered end-to-end ML workflows: data preprocessing, model training, and evaluation metrics</li>
+              <li>Applied best practices in model optimization and performance tuning</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span><span>TensorFlow</span><span>Scikit-Learn</span><span>ML Pipelines</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" id="internMist">
+          <div class="timeline-dot">
+            <div class="dot-inner"></div>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div class="timeline-org">
+                <div class="org-logo mist">M</div>
+                <div>
+                  <h3 class="timeline-role">AI Virtual Intern</h3>
+                  <p class="timeline-company">Mist AI · AICTE – EduSkills</p>
+                </div>
+              </div>
+              <div class="timeline-period">
+                <span class="period-badge">Oct 2024 – Dec 2024</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Explored AI-driven networking concepts and intelligent network automation techniques</li>
+              <li>Studied application of machine learning in network management and anomaly detection</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>AI Networking</span><span>Automation</span><span>Python</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS ========== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Credentials</p>
+        <h2 class="section-title">Certifications &amp; <span class="accent">Achievements</span></h2>
+      </div>
+      <div class="cert-grid">
+
+        <div class="cert-card reveal glass-card" id="certAWS">
+          <div class="cert-icon aws">☁️</div>
+          <div class="cert-info">
+            <h3>AWS Cloud Foundations</h3>
+            <p>Amazon Web Services</p>
+          </div>
+          <div class="cert-check">✓</div>
+        </div>
+
+        <div class="cert-card reveal glass-card" id="certCisco">
+          <div class="cert-icon cisco">🌐</div>
+          <div class="cert-info">
+            <h3>Cisco Networking Academy</h3>
+            <p>Cisco Systems</p>
+          </div>
+          <div class="cert-check">✓</div>
+        </div>
+
+        <div class="cert-card reveal glass-card" id="certAIML">
+          <div class="cert-icon aiml">🤖</div>
+          <div class="cert-info">
+            <h3>AI/ML Virtual Internship</h3>
+            <p>AICTE – EduSkills</p>
+          </div>
+          <div class="cert-check">✓</div>
+        </div>
+
+        <div class="cert-card reveal glass-card" id="certPython">
+          <div class="cert-icon python">🐍</div>
+          <div class="cert-info">
+            <h3>Python Full Stack Development</h3>
+            <p>Professional Certification</p>
+          </div>
+          <div class="cert-check">✓</div>
+        </div>
+
+      </div>
+
+      <!-- Achievements -->
+      <div class="achievements reveal">
+        <h3 class="achievements-title">Achievements &amp; Activities</h3>
+        <div class="achievement-list">
+          <div class="achievement-item glass-card">
+            <div class="ach-icon">🏆</div>
+            <div class="ach-info">
+              <h4>HackerRank C++ Badges</h4>
+              <p>Earned C++ skill badges demonstrating proficiency in competitive programming</p>
+            </div>
+          </div>
+          <div class="achievement-item glass-card">
+            <div class="ach-icon">💡</div>
+            <div class="ach-info">
+              <h4>Hackathon Participant</h4>
+              <p>Participated in coding contests and hackathons, applying skills under real competition pressure</p>
+            </div>
+          </div>
+          <div class="achievement-item glass-card">
+            <div class="ach-icon">🎓</div>
+            <div class="ach-info">
+              <h4>Workshops &amp; Seminars</h4>
+              <p>Attended AI and programming workshops organized by GeeksforGeeks and AI-900 program</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Let's Connect</p>
+        <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+      </div>
+      <div class="contact-wrapper reveal">
+        <div class="contact-text">
+          <p>
+            I'm actively looking for internship and entry-level opportunities in AI/ML, software engineering,
+            and data science. If you have an exciting role or just want to chat, my inbox is always open!
+          </p>
+        </div>
+        <div class="contact-cards">
+          <a href="mailto:ravulaakshitha2006@gmail.com" class="contact-card glass-card" id="contactEmail">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">ravulaakshitha2006@gmail.com</span>
+            </div>
+            <div class="contact-card-arrow">→</div>
+          </a>
+          <a href="tel:+918309419340" class="contact-card glass-card" id="contactPhone">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12 19.79 19.79 0 0 1 1.08 3.4 2 2 0 0 1 3.05 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.28 16z"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Phone</span>
+              <span class="contact-card-value">+91 8309419340</span>
+            </div>
+            <div class="contact-card-arrow">→</div>
+          </a>
+          <a href="https://www.linkedin.com/in/ravula-akshitha" target="_blank" rel="noopener noreferrer" class="contact-card glass-card" id="contactLinkedIn">
+            <div class="contact-card-icon linkedin-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">LinkedIn</span>
+              <span class="contact-card-value">ravula-akshitha</span>
+            </div>
+            <div class="contact-card-arrow">→</div>
+          </a>
+          <a href="https://github.com/ravulaakshitha2006-source" target="_blank" rel="noopener noreferrer" class="contact-card glass-card" id="contactGitHub">
+            <div class="contact-card-icon github-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">GitHub</span>
+              <span class="contact-card-value">ravulaakshitha2006-source</span>
+            </div>
+            <div class="contact-card-arrow">→</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">
+          &copy; 2024 Ravula Akshitha · Designed &amp; Built with ❤️
+        </p>
+        <a href="#home" class="footer-top" id="footerTop" aria-label="Back to top">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
