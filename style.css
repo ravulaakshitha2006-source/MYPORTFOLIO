@@ -233,6 +233,27 @@ body::after {
   box-shadow: 0 0 30px rgba(124,58,237,0.55);
 }
 
+.nav-github {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  transition: var(--transition);
+  margin-left: 0.25rem;
+}
+
+.nav-github:hover {
+  color: var(--text-primary);
+  border-color: var(--border-accent);
+  background: var(--bg-card-hover);
+  transform: translateY(-1px);
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -620,10 +641,8 @@ body::after {
    ABOUT
 ────────────────────────────────────────── */
 .about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  align-items: start;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .about-text p {
